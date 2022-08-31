@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 
-import { Header } from "../../components"
+import { Header, SearchForm } from "../../components"
 
 const HomePage = () => {
 
     return <>
             <Header />
+            <SearchForm />
             </>
 
 }
